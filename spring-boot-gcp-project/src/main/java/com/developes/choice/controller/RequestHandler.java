@@ -17,6 +17,6 @@ public class RequestHandler {
 
 	@RequestMapping(name="hello", method=RequestMethod.GET)
 	public String sayHello(@RequestParam String name) {
-		return "Hello "+name;
+		return "Hello my friends"+name;
 	}
 }
